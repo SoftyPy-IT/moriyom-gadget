@@ -1,0 +1,212 @@
+[
+  {
+    "name": "TCL 40 SE (6/256GB)",
+    "slug": "tcl-40-se-(6/256gb)",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/mobile/tcl/40-se/40-se-purple-200x200.webp",
+    "discount_price": 11999,
+    "price": 15500
+  },
+  {
+    "name": "TCL MOVEAUDIO TW12 Air ENC Earbuds",
+    "slug": "tcl-moveaudio-tw12-air-enc-earbuds",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/earbuds/tcl/moveaudio-air/moveaudio-air-0001-200x200.webp",
+    "discount_price": 990,
+    "price": 2000
+  },
+  {
+    "name": "Intel Core i3-12100 12th Gen Budget Desktop PC",
+    "slug": "intel-core-i3-12100-12th-gen-budget-desktop-pc",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/intel-core-i3-12100-12th-gen-budget-desktop-pc-02-200x200.webp",
+    "discount_price": null,
+    "price": null
+  },
+  {
+    "name": "MSI PRO MP251P 24.5\" 100Hz 1ms FHD IPS Monitor",
+    "slug": "msi-pro-mp251p-24.5\"-100hz-1ms-fhd-ips-monitor",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/pro-mp251p/pro-mp251p-01-200x200.webp",
+    "discount_price": 19500,
+    "price": 20000
+  },
+  {
+    "name": "MSI G32CQ5P 31.5 inch VA 170Hz Curved Gaming Monitor",
+    "slug": "msi-g32cq5p-31.5-inch-va-170hz-curved-gaming-monitor",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/g32cq5p/g32cq5p-001-200x200.webp",
+    "discount_price": null,
+    "price": null
+  },
+  {
+    "name": "MSI MPG 491CQP QD-OLED 49\" DQHD 144Hz Curved Gaming Monitor",
+    "slug": "msi-mpg-491cqp-qd-oled-49\"-dqhd-144hz-curved-gaming-monitor",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/491cqp/mpg-491cqp-qd-oled-06-200x200.webp",
+    "discount_price": 240000,
+    "price": 242000
+  },
+  {
+    "name": "MSI Thin A15 B7UCX Ryzen 5 7535HS RTX 2050 4GB GDDR6 Graphics 16GB RAM 15.6\" Gaming Laptop",
+    "slug": "msi-thin-a15-b7ucx-ryzen-5-7535hs-rtx-2050-4gb-gddr6-graphics-16gb-ram-15.6\"-gaming-laptop",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/thin-15-b13ve/thin-15-b13vethin-15-b13ve-01-200x200.webp",
+    "discount_price": 95000,
+    "price": 105000
+  },
+  {
+    "name": "Lenovo IdeaPad Gaming 3 15ACH6 Ryzen 5 5500H RTX 2050 4GB Graphics 15.6\" FHD Laptop",
+    "slug": "lenovo-ideapad-gaming-3-15ach6-ryzen-5-5500h-rtx-2050-4gb-graphics-15.6\"-fhd-laptop",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-gaming-3/ideapad-gaming-3-001-200x200.jpg",
+    "discount_price": 90000,
+    "price": 96500
+  },
+  {
+    "name": "Lenovo Legion Slim 5 16AHP9 Ryzen 7 8845HS AI Integrated RTX 4070 8GB Graphics 16\" Gaming Laptop",
+    "slug": "lenovo-legion-slim-5-16ahp9-ryzen-7-8845hs-ai-integrated-rtx-4070-8gb-graphics-16\"-gaming-laptop",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/legion-slim-5-16ahp9/legion-slim-5-16ahp9-01-200x200.webp",
+    "discount_price": 245000,
+    "price": 250000
+  },
+  {
+    "name": "Lenovo IdeaCentre AIO 3 24IAP7 Core i5 13th Gen 23.8\" All-in-One Desktop PC",
+    "slug": "lenovo-ideacentre-aio-3-24iap7-core-i5-13th-gen-23.8\"-all-in-one-desktop-pc",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/lenovo/f0gh003dlk/f0gh003dlk-01-200x200.webp",
+    "discount_price": null,
+    "price": null
+  },
+  {
+    "name": "Dell Vostro 3910 MT Core i3 12th Gen Tower Brand PC",
+    "slug": "dell-vostro-3910-mt-core-i3-12th-gen-tower-brand-pc",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/dell/vostro/dell-vostro-200x200.webp",
+    "discount_price": null,
+    "price": null
+  },
+  {
+    "name": "Dell PowerEdge T150 Tower Server",
+    "slug": "dell-poweredge-t150-tower-server",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/server/dell/poweredge-t150/poweredge-t150-01-200x200.jpg",
+    "discount_price": null,
+    "price": null
+  },
+  {
+    "name": "Lenovo Tab M10 (3rd Gen) 4GB RAM 64GB Storage 10.1-Inch FHD Tablet LTE (Sim Supported) with Folio Case",
+    "slug": "lenovo-tab-m10-(3rd-gen)-4gb-ram-64gb-storage-10.1-inch-fhd-tablet-lte-(sim-supported)-with-folio-case",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/tablet-pc/lenovo/tab-m10-gen-3/tab-m10-gen-3-10-200x200.webp",
+    "discount_price": 32000,
+    "price": 33500
+  },
+  {
+    "name": "Sony MHC-V43D High Power Wireless Bluetooth Party Speaker",
+    "slug": "sony-mhc-v43d-high-power-wireless-bluetooth-party-speaker",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/speaker/sony/mhc-v43d/sony-mhc-v43d-bluetooth-party-speaker-01-200x200.webp",
+    "discount_price": 50000,
+    "price": 52000
+  },
+  {
+    "name": "Sony Alpha A6400 Mirrorless Digital Camera with 16-50mm Lens",
+    "slug": "sony-alpha-a6400-mirrorless-digital-camera-with-16-50mm-lens",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/digital-camera/sony/alpha-a6400/alpha-a6400-1-200x200.jpg",
+    "discount_price": 96000,
+    "price": 98000
+  },
+  {
+    "name": "Hisense 65A6F3 65\" Bezelless Smart Android 4K UHD Google TV",
+    "slug": "hisense-65a6f3-65\"-bezelless-smart-android-4k-uhd-google-tv",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/television/hisense/65a6f3/65a6f3-01-200x200.webp",
+    "discount_price": 86000,
+    "price": 94900
+  },
+  {
+    "name": "JBL Bar 2.1 Deep Bass MK2 2.1 Channel Soundbar with Wireless Subwoofer",
+    "slug": "jbl-bar-2.1-deep-bass-mk2-2.1-channel-soundbar-with-wireless-subwoofer",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/speaker/jbl/bar-2-1-deep-bass-mk2/bar-2-1-deep-bass-mk2-01-200x200.webp",
+    "discount_price": 37500,
+    "price": 38000
+  },
+  {
+    "name": "Optoma X400LVe XGA 4000 Lumens Professional Projector",
+    "slug": "optoma-x400lve-xga-4000-lumens-professional-projector",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/projector/optoma/x400lve/x400lve-200x200.jpg",
+    "discount_price": 41000,
+    "price": 45000
+  },
+  {
+    "name": "DJI Osmo Action 4 Adventure Combo Action Camera",
+    "slug": "dji-osmo-action-4-adventure-combo-action-camera",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/dji/osmo-action-4-standard-combo/osmo-action-4-standard-combo-02-200x200.webp",
+    "discount_price": 45000,
+    "price": 51000
+  },
+  {
+    "name": "DJI Osmo Pocket 3 Creator Combo 3 Axis Gimbal Stabilizer Action Camera",
+    "slug": "dji-osmo-pocket-3-creator-combo-3-axis-gimbal-stabilizer-action-camera",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/dji/osmo-pocket-3-creator-combo/osmo-pocket-3-creator-combo-01-200x200.webp",
+    "discount_price": 75000,
+    "price": 77000
+  },
+  {
+    "name": "DJI Mini 4 Pro Drone With Mini to the Max Combo",
+    "slug": "dji-mini-4-pro-drone-with-mini-to-the-max-combo",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/drones/dji/mini-4-pro/mini-4-pro-200x200.webp",
+    "discount_price": 145000,
+    "price": 150000
+  },
+  {
+    "name": "Black Shark GS3 1.43\" AMOLED Smart Watch",
+    "slug": "black-shark-gs3-1.43\"-amoled-smart-watch",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/smart-watch/black-shark/gs3/gs3-green-01-200x200.webp",
+    "discount_price": 6999,
+    "price": 7299
+  },
+  {
+    "name": "Razer Kishi V2 Mobile Gaming Controller for iPhone (Global)",
+    "slug": "razer-kishi-v2-mobile-gaming-controller-for-iphone-(global)",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/game-pad/razer/kishi-v2-iphone/kishi-v2-iphone-01-200x200.webp",
+    "discount_price": 10999,
+    "price": 15000
+  },
+  {
+    "name": "HP DeskJet Ink Advantage 2775 All-in-One Printer",
+    "slug": "hp-deskjet-ink-advantage-2775-all-in-one-printer",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/printer/hp-printer/deskjet-ink-advantage-2775/deskjet-ink-advantage-2775-01-200x200.webp",
+    "discount_price": 8400,
+    "price": 8500
+  },
+  {
+    "name": "Pantum M6556NW Mono Laser Printer With ADF, LAN & Wi-fi (22 PPM)",
+    "slug": "pantum-m6556nw-mono-laser-printer-with-adf,-lan-&-wi-fi-(22-ppm)",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/printer/pantum/m6556nw/m6556nw-01-200x200.jpg",
+    "discount_price": 19000,
+    "price": 19200
+  },
+  {
+    "name": "Optoma 3862RK 86\" 4K Creative Touch 3 Series Interactive Flat Panel Display",
+    "slug": "optoma-3862rk-86\"-4k-creative-touch-3-series-interactive-flat-panel-display",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/interactive-display/optoma/3862rk/3862rk-01-200x200.webp",
+    "discount_price": null,
+    "price": null
+  },
+  {
+    "name": "Xtrike Me GC-905 Gaming Chair",
+    "slug": "xtrike-me-gc-905-gaming-chair",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/gaming-chair/xtrike-me/gc-905/gc-905-01-200x200.webp",
+    "discount_price": 15400,
+    "price": 16000
+  },
+  {
+    "name": "Dahua imou Ranger 2 IP Camera with 360 Degree Coverage (IPC-A22EP-L/IPC-A22EP-G)",
+    "slug": "dahua-imou-ranger-2-ip-camera-with-360-degree-coverage-(ipc-a22ep-l/ipc-a22ep-g)",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/ip-camera/imou-ranger-2/imou-ranger-2-200x200.jpg",
+    "discount_price": 2250,
+    "price": 2500
+  },
+  {
+    "name": "Insta360 ONE RS 4K Edition Waterproof Action Camera",
+    "slug": "insta360-one-rs-4k-edition-waterproof-action-camera",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/insta360/one-rs-4k-edition/one-rs-4k-edition-01-200x200.webp",
+    "discount_price": 22360,
+    "price": 28000
+  },
+  {
+    "name": "Lenovo IdeaPad Gaming Modern Backpack for 16\" Laptop",
+    "slug": "lenovo-ideapad-gaming-modern-backpack-for-16\"-laptop",
+    "thumbnail": "https://www.startech.com.bd/image/cache/catalog/laptop-accessories/backpack/lenovo/ideapad-gaming-modern/ideapad-gaming-modern-01-200x200.webp",
+    "discount_price": 2399,
+    "price": 2700
+  }
+]
