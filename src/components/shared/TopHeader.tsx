@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import DesktopNavigation from "./DesktopNavigation";
 import TopHeaderDesktop from "./TopHeaderDesktop";
+import CartItem from "../Cart/CartItem";
 
 const TopHeader = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,6 +27,7 @@ const TopHeader = () => {
     <div
       className={`bg-white z-10 ${isScrolled ? "sticky top-0 shadow-md" : ""}`}
     >
+      <CartItem />
       <TopHeaderDesktop />
       <div className="mx-auto container px-2 sm:px-4 lg:px-8 lg:divide-y  lg:divide-gray200">
         <DesktopNavigation />

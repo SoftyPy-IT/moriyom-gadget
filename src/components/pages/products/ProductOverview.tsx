@@ -63,12 +63,12 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
         (item) =>
           item.productId === product._id &&
           item.variants &&
-          item.variants.some((v) => v.name === variant.name)
+          item.variants.some((v) => v.name === variant.name),
       );
 
       if (cartItem) {
         const selectedVariant = cartItem?.variants?.find(
-          (v) => v.name === variant.name
+          (v) => v.name === variant.name,
         );
         initialSelection[variant.name] = selectedVariant
           ? selectedVariant.value
@@ -107,7 +107,7 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
     };
 
     const existingCartItem = cartItems.find(
-      (item) => item.productId === cartItem.productId
+      (item) => item.productId === cartItem.productId,
     );
 
     if (existingCartItem) {
@@ -125,14 +125,14 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
             type: cartItem.productTax.type,
           },
           taxMethod: cartItem.taxMethod,
-        })
+        }),
       );
 
       dispatch(
         changeItemQuantity({
           productId: cartItem.productId,
           quantity: existingCartItem.quantity + 1,
-        })
+        }),
       );
     } else {
       dispatch(addToCart(cartItem));
@@ -152,7 +152,7 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
     const toastId = toast.loading("Please wait...");
     try {
       const action = profile?.data?.wishlist?.some(
-        (item: any) => item._id === product._id
+        (item: any) => item._id === product._id,
       )
         ? "remove"
         : "add";
@@ -167,7 +167,7 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
         {
           id: toastId,
           duration: 2000,
-        }
+        },
       );
     } catch (error: any) {
       toast.error(error?.data?.message || "Something went wrong", {
@@ -178,7 +178,7 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
   };
   return (
     <>
-      <div className="bg-white border-y border-gray100 mt-10">
+      <div className="bg-white border-y border-gray100 mt-10 px-4">
         <div className="pb-16 pt-6 sm:pb-24">
           <div className="lg:grid lg:auto-rows-min lg:grid-cols-12 lg:gap-x-8 relative">
             <div className="lg:col-span-7 lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0">
@@ -255,7 +255,7 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
                           onClick={handleAddOrRemoveFromWishList}
                         >
                           {profile?.data?.wishlist?.some(
-                            (item: any) => item._id === product._id
+                            (item: any) => item._id === product._id,
                           ) ? (
                             <HeartIconSolid className="h-7 w-7 flex-shrink-0" />
                           ) : (
@@ -289,7 +289,7 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
                     <p className="mt-2 text-gray-500 truncate text-2xl">
                       {product.discount_price > 0 ? (
                         <>
-                          <span className="text-orange-500 mr-2">
+                          <span className="text-orange mr-2">
                             {formatPrice(product.discount_price)}
                           </span>
                           <span className="text-gray-900 line-through font-semibold">
@@ -332,18 +332,17 @@ const ProductOverview = ({ product, isLoading }: IProductOverview) => {
                               <RadioGroup.Label className="sr-only">
                                 Choose a {variant.name}
                               </RadioGroup.Label>
-                              <div className="grid grid-cols-3 gap-3 sm:grid-cols-5">
+                              <div className="flex flex-wrap space-x-2 sm:space-x-4  items-center">
                                 {variant.values.map((value: any) => (
                                   <RadioGroup.Option
                                     key={value._id}
                                     value={value.name}
                                     className={({ active, checked }) =>
                                       classNames(
-                                        active ? "" : "",
                                         checked
-                                          ? "border-blue"
-                                          : "border-gray200 text-black hover:bg-gray-50",
-                                        "flex cursor-pointer items-center justify-center rounded-md border p-2 text-sm font-medium uppercase sm:flex-1"
+                                          ? "border-yellow bg-yellow"
+                                          : "border-gray300 text-black hover:bg-gray-50",
+                                        "flex cursor-pointer items-center justify-center rounded-md border p-1 text-sm font-medium uppercase sm:flex-1",
                                       )
                                     }
                                   >

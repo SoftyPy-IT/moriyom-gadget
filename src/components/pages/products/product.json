@@ -1,0 +1,226 @@
+{
+  "data": {
+    "product": {
+      "_id": "668a62aa6a303c4b84d677a8",
+      "name": "Dell PowerEdge T150 Tower Server",
+      "code": "L-Shaped Sectional Sofa – Plush Fabric",
+      "slug": "l-shaped-sectional-sofa-plush-fabric",
+      "barcodeSymbology": "CODE25",
+      "category": {
+        "_id": "66dc2663d767091ca3677b16",
+        "category_priority": 2,
+        "name": "New Arrivals",
+        "description": "New Arrivals",
+        "image": "https://res.cloudinary.com/dsftrmdil/image/upload/v1736411981/softypy/668a36468541d7b2b8821038/softypy-1736411980913-5.jpg",
+        "slug": "new-arrivals",
+        "parent_category": null,
+        "isDeleted": false,
+        "deletedAt": null,
+        "products": ["668a62aa6a303c4b84d677a8"],
+        "createdAt": "2024-09-07T10:09:39.447Z",
+        "updatedAt": "2025-01-09T08:51:20.958Z",
+        "__v": 5
+      },
+      "productUnit": {
+        "_id": "667d44e7857b4dec9ee3feff",
+        "unit_code": "l",
+        "name": "Liter",
+        "isDeleted": false,
+        "createdAt": "2024-06-27T10:54:31.093Z",
+        "updatedAt": "2024-06-27T10:54:31.093Z",
+        "__v": 0
+      },
+      "defaultSaleUnit": {
+        "_id": "667d44e7857b4dec9ee3feff",
+        "unit_code": "l",
+        "name": "Liter",
+        "isDeleted": false,
+        "createdAt": "2024-06-27T10:54:31.093Z",
+        "updatedAt": "2024-06-27T10:54:31.093Z",
+        "__v": 0
+      },
+      "defaultPurchaseUnit": {
+        "_id": "667d44e7857b4dec9ee3feff",
+        "unit_code": "l",
+        "name": "Liter",
+        "isDeleted": false,
+        "createdAt": "2024-06-27T10:54:31.093Z",
+        "updatedAt": "2024-06-27T10:54:31.093Z",
+        "__v": 0
+      },
+      "productCost": 90,
+      "price": 255000,
+      "taxMethod": "No Tax",
+      "description": "<p>The PowerEdge T150, powered by Intel Xeon E-2300 processors, is an entry-level tower server that offers an optimal blend of scalability and affordability to meet your changing computing needs. It supports up to 128GB of 3200 MT/s DDR4 UDIMMs. With PCIe Gen 4 support, you may get significant throughput gains. It is ideal for file/print, mail/messaging, POS, web hosting, and collaboration. With UEFI Secure Boot, you get greater thermal efficiency as well as improved security and quicker boot time. The Dell Technologies OpenManage systems management portfolio provides tools and solutions to identify, monitor, manage, upgrade, and deploy your PowerEdge infrastructure, reducing the complexity of your IT environment. PowerEdge servers are made with a cyber-resilient architecture that builds in security at every phase of the product lifecycle, from the silicon root of trust and secured component verification, to signed firmware and drift detection, to BIOS recovery. The Dell PowerEdge T150 Tower Server comes with ProSupport and Next Business Day Onsite Service-ACDTS, 36 Month(s) Warranty.</p></br><p>Features:</p><li>Intel Xeon E-2300 Processor</li><li>4GB DDR4 RAM</li><li>1TB HDD</li><li>Intel Xeon E-2300 Processor</li>",
+      "short_description": "The latest price of Dell PowerEdge T150 Tower Server in Bangladesh is 235,000৳. You can buy the Dell PowerEdge T150 Tower Server at best price from our website or visit any of our showrooms.",
+      "thumbnail": "https://res.cloudinary.com/dsftrmdil/image/upload/v1736412560/softypy/666a8e6f473377ca5f7c156d/softypy-1736412558741-Furniture_07_59369439-e4b4-4fae-bcb6-fe2fb0bb54f2.png",
+      "images": [
+        "https://www.startech.com.bd/image/cache/catalog/server/dell/poweredge-t150/poweredge-t150-01-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/server/dell/poweredge-t150/poweredge-t150-03-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/server/dell/poweredge-t150/poweredge-t150-04-500x500.jpg",
+        "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/amd-ryzen-5-8500g-desktop-pc-38905-500x500.webp"
+      ],
+      "discount_price": 235000,
+      "tags": ["Nisi"],
+      "stock": 930,
+      "is_stockout": false,
+      "quantity": 31,
+      "is_available": true,
+      "is_featured": true,
+      "is_active": true,
+      "total_sale": 0,
+      "rating": 4.42,
+      "faq": [
+        {
+          "question": "Consectetur ex do e",
+          "answer": "Labore et sit rerum ",
+          "_id": "66921f9cfa1875f562567db7",
+          "id": "66921f9cfa1875f562567db7"
+        },
+        {
+          "question": " How should I care for the shirt?",
+          "answer": " How should I care for the shirt?",
+          "_id": "66921f9cfa1875f562567db8",
+          "id": "66921f9cfa1875f562567db8"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Ram",
+          "values": [
+            {
+              "name": "4GB",
+              "value": "4GB",
+              "_id": "669220354614b75f385a0b81",
+              "id": "669220354614b75f385a0b81"
+            },
+            {
+              "name": "8GB",
+              "value": "8GB",
+              "_id": "669220354614b75f385a0b82",
+              "id": "669220354614b75f385a0b82"
+            },
+            {
+              "name": "16GB",
+              "value": "16GB",
+              "_id": "669220354614b75f385a0b83",
+              "id": "669220354614b75f385a0b83"
+            }
+          ]
+        },
+        {
+          "name": "Storage",
+          "values": [
+            {
+              "name": "1TB",
+              "value": "1TB",
+              "_id": "669220354614b75f385a0b84",
+              "id": "669220354614b75f385a0b84"
+            },
+            {
+              "name": "2TB",
+              "value": "2TB",
+              "_id": "669220354614b75f385a0b85",
+              "id": "669220354614b75f385a0b85"
+            },
+            {
+              "name": "4TB",
+              "value": "4TB",
+              "_id": "669220354614b75f385a0b86",
+              "id": "669220354614b75f385a0b86"
+            }
+          ]
+        },
+        {
+          "name": "Processor",
+          "values": [
+            {
+              "name": "Intel Xeon E-2300",
+              "value": "Intel Xeon E-2300",
+              "_id": "669220354614b75f385a0b87",
+              "id": "669220354614b75f385a0b87"
+            },
+            {
+              "name": "Intel Xeon E-2200",
+              "value": "Intel Xeon E-2200",
+              "_id": "669220354614b75f385a0b88",
+              "id": "669220354614b75f385a0b88"
+            }
+          ]
+        }
+      ],
+      "hasVariants": true,
+      "meta_title": "Soluta inventore quo",
+      "meta_description": "Aut delectus explic",
+      "meta_keywords": ["Asperiores"],
+      "isDeleted": false,
+      "createdAt": "2024-07-07T09:40:58.096Z",
+      "updatedAt": "2025-01-09T08:51:20.913Z",
+      "__v": 0,
+      "reviews": ["668f61d025a44828504af223", "668f6711ee46633e8ed1439b"],
+      "productTax": {
+        "_id": "667d44e6857b4dec9ee3fef9",
+        "name": "GST",
+        "code": "GST",
+        "rate": 10,
+        "type": "Percentage",
+        "isDeleted": false,
+        "__v": 0,
+        "createdAt": "2024-06-27T10:54:30.938Z",
+        "updatedAt": "2024-07-13T10:46:31.869Z"
+      },
+      "brand": {
+        "_id": "666ae808f15e120e9e696cf0",
+        "name": "Tavash",
+        "description": "Aliquid quos fugit ",
+        "slug": "tavash",
+        "image": "https://res.cloudinary.com/dsftrmdil/image/upload/v1718282283/softypy/666ae820f15e120e9e696cfc/softypy-1718282281820-395495383_310710895044796_6336438950207657717_n.jpg.jpg",
+        "products": ["667fd8b658bc3817a9ecdc6e"],
+        "isDeleted": false,
+        "deletedAt": null,
+        "createdAt": "2024-06-13T12:37:28.994Z",
+        "updatedAt": "2025-01-09T08:51:20.969Z",
+        "__v": 55
+      },
+      "total_reviews": 33,
+      "id": "668a62aa6a303c4b84d677a8"
+    },
+    "relatedProducts": [
+      {
+        "name": "TCL 40 SE (6/256GB)",
+        "slug": "tcl-40-se-(6/256gb)",
+        "thumbnail": "https://www.startech.com.bd/image/cache/catalog/mobile/tcl/40-se/40-se-purple-200x200.webp",
+        "discount_price": 11999,
+        "price": 15500
+      },
+      {
+        "name": "TCL MOVEAUDIO TW12 Air ENC Earbuds",
+        "slug": "tcl-moveaudio-tw12-air-enc-earbuds",
+        "thumbnail": "https://www.startech.com.bd/image/cache/catalog/earbuds/tcl/moveaudio-air/moveaudio-air-0001-200x200.webp",
+        "discount_price": 990,
+        "price": 2000
+      },
+      {
+        "name": "Intel Core i3-12100 12th Gen Budget Desktop PC",
+        "slug": "intel-core-i3-12100-12th-gen-budget-desktop-pc",
+        "thumbnail": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/desktop-offer/intel-core-i3-12100-12th-gen-budget-desktop-pc-02-200x200.webp",
+        "discount_price": null,
+        "price": null
+      },
+      {
+        "name": "MSI PRO MP251P 24.5\" 100Hz 1ms FHD IPS Monitor",
+        "slug": "msi-pro-mp251p-24.5\"-100hz-1ms-fhd-ips-monitor",
+        "thumbnail": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/pro-mp251p/pro-mp251p-01-200x200.webp",
+        "discount_price": 19500,
+        "price": 20000
+      },
+      {
+        "name": "MSI G32CQ5P 31.5 inch VA 170Hz Curved Gaming Monitor",
+        "slug": "msi-g32cq5p-31.5-inch-va-170hz-curved-gaming-monitor",
+        "thumbnail": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/g32cq5p/g32cq5p-001-200x200.webp",
+        "discount_price": null,
+        "price": null
+      }
+    ]
+  }
+}

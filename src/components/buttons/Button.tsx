@@ -35,7 +35,7 @@ const Button: FC<Props> = ({
       className={`text-xl sm:text-base ${btnSize} border border-gray500 ${
         disabled
           ? "bg-gray400 text-gray300 cursor-not-allowed"
-          : "bg-gray500 text-gray100 hover:text-gray300"
+          : "bg-[#081621] text-gray100 hover:text-gray300"
       } ${extraClass}`}
     >
       {value} <span className="ml-1">{children}</span>

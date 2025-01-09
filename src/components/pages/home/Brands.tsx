@@ -1,6 +1,7 @@
 "use client";
 
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import "swiper/css";
@@ -8,7 +9,6 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 
 const images = [
   "https://dvf83rt16ac4w.cloudfront.net/upload/media/1697016522744936.png",
@@ -29,70 +29,73 @@ const Brands = () => {
 
   useEffect(() => {
     if (images.length > 0) {
-      setKey((prevKey) => prevKey + 1); // Update key on data load
+      setKey((prevKey) => prevKey + 1);
     }
   }, []);
 
   return (
-    <div className="w-full py-12 lg:py-20 ">
-      <>
+    <div className="w-full py-12 lg:py-20 bg-gray-50">
+      <div className="container mx-auto px-4">
         {/* Section Title */}
-        <div className="text-center mb-5">
-          <h2 className="text-2xl md:text-4xl font-semibold text-gray-900">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 mb-4">
             Leading Brands in One Place
           </h2>
-          <p className="text-gray-600 mt-2 text-sm md:text-base">
+          <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
             Explore a wide range of popular brands across various industries.
           </p>
         </div>
 
-        {/* Swiper Navigation */}
-        <div className="flex justify-end mb-6">
-          <div className="flex space-x-3">
+        {/* Swiper Container with Navigation */}
+        <div className="relative">
+          {/* Navigation Buttons */}
+          <div className="absolute right-0 -top-16 flex space-x-3">
             <button
-              className="custom-swiper-button-prev-category flex items-center justify-center bg-white border border-gray300 rounded-full p-2  hover:bg-gray-100 transition-all focus:outline-none"
+              className="custom-swiper-button-prev-category flex items-center bg-white border border-gray200 rounded-full p-0.5 md:p-1 focus:outline-none"
               aria-label="Previous slide"
             >
-              <ChevronLeftIcon className="h-4 w-4 text-gray-700" />
+              <ChevronLeftIcon className="h-5 w-5 text-gray-700" />
             </button>
             <button
-              className="custom-swiper-button-next-category flex items-center justify-center bg-white border border-gray300 rounded-full p-2  hover:bg-gray-100 transition-all focus:outline-none"
+              className="custom-swiper-button-next-category flex items-center bg-white border border-gray200 rounded-full p-0.5 md:p-1 focus:outline-none"
               aria-label="Next slide"
             >
-              <ChevronRightIcon className="h-4 w-4 text-gray-700" />
+              <ChevronRightIcon className="h-5 w-5 text-gray-700" />
             </button>
           </div>
-        </div>
 
-        {/* Swiper Component */}
-        <Swiper
-          key={key}
-          modules={[Navigation, Autoplay]}
-          spaceBetween={isSmallScreen ? 10 : isMediumScreen ? 20 : 30}
-          slidesPerView={isSmallScreen ? 2 : isMediumScreen ? 3 : 5}
-          navigation={{
-            nextEl: ".custom-swiper-button-next-category",
-            prevEl: ".custom-swiper-button-prev-category",
-          }}
-          autoplay={{ delay: 3000 }}
-          loop={true}
-          className="relative bg-white"
-        >
-          {images.map((image, index) => (
-            <SwiperSlide key={index}>
-              <div className="flex justify-center items-center  rounded-lg shadow-md p-4">
-                <Image
-                  src={image}
-                  alt={`Brand ${index + 1}`}
-                  width={160}
-                  height={48}
-                  className="object-contain max-h-16"
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </>
+          {/* Swiper Component */}
+          <Swiper
+            key={key}
+            modules={[Navigation, Autoplay]}
+            spaceBetween={isSmallScreen ? 16 : isMediumScreen ? 24 : 32}
+            slidesPerView={isSmallScreen ? 2 : isMediumScreen ? 3 : 5}
+            navigation={{
+              nextEl: ".custom-swiper-button-next-category",
+              prevEl: ".custom-swiper-button-prev-category",
+            }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop={true}
+            className="px-1"
+          >
+            {images.map((image, index) => (
+              <SwiperSlide key={index}>
+                <div className="aspect-[3/2] bg-white rounded-lg shadow-sm p-6 flex items-center justify-center transition-transform hover:scale-105">
+                  <div className="relative w-full h-full">
+                    <Image
+                      height={80}
+                      width={200}
+                      src={image}
+                      alt={`Brand ${index + 1}`}
+                      className="object-contain w-full h-full"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
     </div>
   );
 };

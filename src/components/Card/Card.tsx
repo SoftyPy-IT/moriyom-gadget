@@ -42,7 +42,7 @@ const Card: FC<Props> = ({ item }) => {
     };
 
     const existingCartItem = cartItems.find(
-      (ci) => ci.productId === cartItem.productId
+      (ci) => ci.productId === cartItem.productId,
     );
 
     if (existingCartItem) {
@@ -50,7 +50,7 @@ const Card: FC<Props> = ({ item }) => {
         changeItemQuantity({
           productId: cartItem.productId,
           quantity: existingCartItem.quantity + 1,
-        })
+        }),
       );
     } else {
       dispatch(addToCart(cartItem as any));

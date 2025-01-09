@@ -29,14 +29,14 @@ const CartItem = () => {
 
   const subTotal = cartItems?.reduce(
     (acc: number, item) => acc + item.price * item.quantity,
-    0
+    0,
   );
 
   const [quantityInput, setQuantityInput] = useState(
     cartItems.reduce((acc, item) => {
       acc[item.productId] = item.quantity;
       return acc;
-    }, {} as { [key: string]: number })
+    }, {} as { [key: string]: number }),
   );
 
   const handleQuantityChange = (productId: string, newQuantity: number) => {
@@ -45,7 +45,7 @@ const CartItem = () => {
       changeItemQuantity({
         productId,
         quantity: newQuantity,
-      })
+      }),
     );
   };
 
@@ -103,23 +103,27 @@ const CartItem = () => {
 
   return (
     <>
-      <div className="relative">
+      <div className="fixed bottom-6 right-6 z-50 sm:bottom-4 sm:right-4">
         <button
           type="button"
           onClick={openModal}
           aria-label="Cart"
-          className="relative"
+          className="relative bg-[#081621] border border-gray400 px-6 py-3 text-white rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300 sm:px-4 sm:py-2"
         >
-          <BagIcon className="w-6 h-6 " />
+          <div className="flex flex-col items-center justify-center space-y-2">
+            <BagIcon className="w-8 h-8 sm:w-6 sm:h-6" />
+            <span className="text-sm sm:text-xs">CART</span>
+          </div>
           {noOfItems > 0 && (
             <span
-              className={`${animate} absolute text-xs -top-2.5 sm:-top-3 sm:px-2 px-1.5 bg-gray500 text-gray100 py-0.5 sm:py-1 rounded-full`}
+              className={`${animate} absolute text-xs -top-2 -right-2 px-2 bg-orange text-gray100 py-1 rounded-full min-w-[20px] flex items-center justify-center`}
             >
               {noOfItems}
             </span>
           )}
         </button>
       </div>
+
       <Transition show={open} as={Fragment}>
         <Dialog
           as="div"
@@ -186,13 +190,13 @@ const CartItem = () => {
                           onAdd={() =>
                             handleQuantityChange(
                               item.productId as string,
-                              item.quantity! + 1
+                              item.quantity! + 1,
                             )
                           }
                           onRemove={() =>
                             handleQuantityChange(
                               item.productId,
-                              item.quantity - 1 < 1 ? 1 : item.quantity - 1
+                              item.quantity - 1 < 1 ? 1 : item.quantity - 1,
                             )
                           }
                           onDelete={() =>
@@ -224,7 +228,7 @@ const CartItem = () => {
                         {formatPrice(
                           subTotal - discount + tax > 0
                             ? subTotal - discount + tax
-                            : 0
+                            : 0,
                         )}
                       </span>
                     </div>

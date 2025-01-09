@@ -23,7 +23,7 @@ export async function generateMetadata({
   const product = await getProducts(params.slug);
 
   return {
-    title: product?.name + " | " + data?.shopName,
+    title: product?.name || "Gadget" + " | " + data?.shopName || "",
     description: product?.meta_description || data?.description || "",
     openGraph: {
       type: "website",

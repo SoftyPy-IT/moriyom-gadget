@@ -13,39 +13,39 @@ import Preloader from "@/components/common/Preloader";
 const NextuiProvider = ({ children }: { children: React.ReactNode }) => {
   const dispatch = useAppDispatch();
 
-  const {
-    data: storefrontData,
-    error: storefrontError,
-    isLoading: storefrontLoading,
-    isSuccess: storefrontSuccess,
-  } = useGetStorefrontDataQuery(undefined);
+  // const {
+  //   data: storefrontData,
+  //   error: storefrontError,
+  //   isLoading: storefrontLoading,
+  //   isSuccess: storefrontSuccess,
+  // } = useGetStorefrontDataQuery(undefined);
 
-  const {
-    data: profile,
-    isSuccess: profileSuccess,
-    error: profileError,
-  } = useGetProfileQuery(undefined) as any;
+  // const {
+  //   data: profile,
+  //   isSuccess: profileSuccess,
+  //   error: profileError,
+  // } = useGetProfileQuery(undefined) as any;
 
-  useEffect(() => {
-    if (profileSuccess && profile?.data) {
-      dispatch(setProfile(profile.data));
-    }
-  }, [dispatch, profileSuccess, profile]);
+  // useEffect(() => {
+  //   if (profileSuccess && profile?.data) {
+  //     dispatch(setProfile(profile.data));
+  //   }
+  // }, [dispatch, profileSuccess, profile]);
 
-  useEffect(() => {
-    if (profileError?.data?.message === "jwt expired") {
-      dispatch(logout());
-    }
-  }, [profileError, dispatch]);
+  // useEffect(() => {
+  //   if (profileError?.data?.message === "jwt expired") {
+  //     dispatch(logout());
+  //   }
+  // }, [profileError, dispatch]);
 
-  useEffect(() => {
-    if (storefrontSuccess && storefrontData) {
-      dispatch(setStorefrontData(storefrontData as any));
-    }
-  }, [storefrontSuccess, storefrontData, dispatch]);
+  // useEffect(() => {
+  //   if (storefrontSuccess && storefrontData) {
+  //     dispatch(setStorefrontData(storefrontData as any));
+  //   }
+  // }, [storefrontSuccess, storefrontData, dispatch]);
 
-  if (storefrontLoading) return <Preloader />;
-  if (storefrontError) return <ServerErrorMessage />;
+  // if (storefrontLoading) return <Preloader />;
+  // if (storefrontError) return <ServerErrorMessage />;
 
   return <NextUIProvider>{children}</NextUIProvider>;
 };

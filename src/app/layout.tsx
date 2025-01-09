@@ -6,7 +6,7 @@ import NextuiProvider from "@/providers/NextuiProvider";
 import StoreProvider from "@/providers/StoreProvider";
 import { getGlobalData } from "@/utils/getGlobalData";
 import type { Metadata } from "next";
-import { Jost } from "next/font/google";
+import { Inter } from "next/font/google";
 import NextTopLoader from "nextjs-toploader";
 import React, { PropsWithChildren, Suspense } from "react";
 
@@ -19,7 +19,7 @@ import "swiper/css/grid";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const jost = Jost({ subsets: ["latin"] });
+const jost = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
